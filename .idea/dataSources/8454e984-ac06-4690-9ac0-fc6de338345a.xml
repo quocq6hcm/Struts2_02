@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="testdb@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.4">
+    <root id="1">
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="TestDB">
+      <ObjectId>27</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="7" parent="1" name="Lab3DB">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="8" parent="1" name="Lab5DB">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="9" parent="1" name="Lab6DB">
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="10" parent="1" name="Lab7DB">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="11" parent="1" name="Lab8DB">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="12" parent="1" name="Lab9DB">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="13" parent="1" name="Lab10DB">
+      <ObjectId>11</ObjectId>
+    </database>
+    <database id="14" parent="1" name="HRManager">
+      <ObjectId>12</ObjectId>
+    </database>
+    <database id="15" parent="1" name="Lab1EAP">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="16" parent="1" name="EAPLab2DB">
+      <ObjectId>14</ObjectId>
+    </database>
+    <database id="17" parent="1" name="AzureStorageEmulatorDb51">
+      <ObjectId>15</ObjectId>
+    </database>
+    <database id="18" parent="1" name="EAPLab3Conn">
+      <ObjectId>16</ObjectId>
+    </database>
+    <database id="19" parent="1" name="EAPLab6">
+      <ObjectId>17</ObjectId>
+    </database>
+    <database id="20" parent="1" name="BigSchool">
+      <ObjectId>18</ObjectId>
+    </database>
+    <database id="21" parent="1" name="EAPLab8">
+      <ObjectId>19</ObjectId>
+    </database>
+    <database id="22" parent="1" name="SHOESWebSite">
+      <ObjectId>20</ObjectId>
+    </database>
+    <database id="23" parent="1" name="EAPLab9DB">
+      <ObjectId>21</ObjectId>
+    </database>
+    <database id="24" parent="1" name="EAPLab9WCFDB">
+      <ObjectId>22</ObjectId>
+    </database>
+    <database id="25" parent="1" name="MovieDB">
+      <ObjectId>23</ObjectId>
+    </database>
+    <database id="26" parent="1" name="NewDB">
+      <ObjectId>24</ObjectId>
+    </database>
+    <database id="27" parent="1" name="Sem4DemoDB">
+      <ObjectId>25</ObjectId>
+    </database>
+    <database id="28" parent="1" name="QLTX">
+      <ObjectId>26</ObjectId>
+    </database>
+    <database id="29" parent="1" name="QLQuanAo">
+      <ObjectId>28</ObjectId>
+    </database>
+    <database id="30" parent="1" name="APIRenshuu">
+      <ObjectId>29</ObjectId>
+    </database>
+    <database id="31" parent="1" name="HRManager23">
+      <ObjectId>30</ObjectId>
+    </database>
+    <database id="32" parent="1" name="WEA_Review">
+      <ObjectId>31</ObjectId>
+    </database>
+    <database id="33" parent="1" name="store">
+      <ObjectId>32</ObjectId>
+    </database>
+    <database id="34" parent="1" name="Spring_02">
+      <ObjectId>33</ObjectId>
+    </database>
+    <database id="35" parent="1" name="Test">
+      <ObjectId>34</ObjectId>
+    </database>
+    <database id="36" parent="1" name="WCD_Ass14">
+      <ObjectId>35</ObjectId>
+    </database>
+    <database id="37" parent="1" name="WCD_Review">
+      <ObjectId>36</ObjectId>
+    </database>
+    <database id="38" parent="1" name="WCD_Test">
+      <ObjectId>37</ObjectId>
+    </database>
+    <schema id="39" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-01-16.09:08:50.630</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="40" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="41" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="42" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="43" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="44" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="45" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="46" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="47" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="48" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="49" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="50" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="51" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="52" parent="39" name="Users">
+      <ObjectId>565577053</ObjectId>
+      <CreatedTimestamp>2017-11-14.16:42:32.407</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-14.16:42:32.407</ModifiedTimestamp>
+    </table>
+    <column id="53" parent="52" name="username">
+      <Position>1</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="52" name="password">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="52" name="fullname">
+      <Position>3</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="52" name="photo">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="52" name="email">
+      <Position>5</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="52" name="level">
+      <Position>6</Position>
+      <DataType>tinyint|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="59" parent="52" name="PK__Users__F3DBC57373279F92">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>username</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="52" name="PK__Users__F3DBC57373279F92">
+      <ObjectId>581577110</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-11-14.16:42:33.383</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-14.16:42:33.383</ModifiedTimestamp>
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>PK__Users__F3DBC57373279F92</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

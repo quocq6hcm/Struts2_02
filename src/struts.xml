@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="read" class="actions.ReadAction">
+            <result name="success">/read.jsp</result>
+        </action>
+
+        <action name="create" class="actions.ReadAction" method="create">
+            <param name="username"></param>
+            <param name="password"></param>
+            <param name="fullName"></param>
+            <param name="photo"></param>
+            <param name="email"></param>
+            <param name="level"></param>
+
+            <result name="create">/create.jsp</result>
+        </action>
+
+        <action name="update" class="actions.ReadAction" method="update">
+            <param name="username"></param>
+            <param name="password"></param>
+            <param name="fullName"></param>
+            <param name="photo"></param>
+            <param name="email"></param>
+            <param name="level"></param>
+            <result name="update">/update.jsp</result>
+        </action>
+
+        <action name="getUpdate" class="actions.ReadAction" method="getUpdate">
+            <param name="username"></param>
+
+            <result name="getUpdate">/update.jsp</result>
+        </action>
+
+        <action name="delete" class="actions.ReadAction" method="delete">
+            <param name="username"></param>
+            <param name="password"></param>
+            <param name="fullName"></param>
+            <param name="photo"></param>
+            <param name="email"></param>
+            <param name="level"></param>
+
+            <result name="delete">/index.jsp</result>
+        </action>
+
+    </package>
+    
+    
+</struts>

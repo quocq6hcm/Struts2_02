@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Struts 2" type="struts2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/asm-3.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/asm-commons-3.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/asm-tree-3.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/commons-fileupload-1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/commons-io-2.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/commons-lang3-3.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/freemarker-2.3.19.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/javassist-3.11.0.GA.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/ognl-3.0.6.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/struts2-convention-plugin-2.3.15.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/struts2-core-2.3.15.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/StrutsLibs/xwork-core-2.3.15.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/sqljdbc42.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jstl-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/struts-taglib-1.3.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/standard-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
